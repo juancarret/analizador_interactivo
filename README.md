@@ -30,3 +30,93 @@ Se crea un archivo `reporte.txt` con estadísticas descriptivas del dataset.
 ### ✔ Carpeta dedicada para resultados
 Todos los archivos generados (reporte, gráficos y CSV convertido) se guardan en:
 
+
+---
+
+analizador_interactivo/reporte/
+
+## 📁 Estructura del proyecto
+
+analizador_csv/
+── data/
+── reporte/
+   ── reporte.txt
+   ── grafico_histograma.png
+   ── grafico_linea.png
+   ── manual_histograma.png
+   ── manual_linea.png
+   ── manual_barras.png
+   ── manual_dispersion.png
+   ── datos_convertidos.csv
+── src/
+   ── analizador_interactivo.py
+── README.md
+
+
+---
+
+## 🧠 Tecnologías utilizadas
+
+- **Python 3**
+- **pandas**
+- **matplotlib**
+- **tkinter** (para selección de archivo)
+- **pathlib** (manejo de rutas)
+- **json** (lectura y conversión de JSON)
+
+---
+
+## ▶ Cómo ejecutar el proyecto
+
+1. Instala las dependencias:
+pip install pandas matplotlib
+
+
+2. Ejecuta el script:
+python src/analizador_interactivo.py
+
+
+3. Selecciona el archivo CSV o JSON desde la ventana emergente.
+
+4. Elige el modo de gráficos:
+- Automático  
+- Manual  
+
+5. Revisa los resultados en la carpeta:
+analizador_csv/reporte/
+
+
+---
+
+## 📊 Ejemplo de uso
+
+- Seleccionas un archivo `ventas.csv`
+- El programa limpia los datos
+- Genera estadísticas descriptivas
+- Crea gráficos automáticos o manuales
+- Guarda todo en la carpeta `reporte`
+
+---
+
+## 🎯 Objetivo del proyecto
+
+Este proyecto demuestra habilidades prácticas en:
+
+- Manipulación de datos  
+- Limpieza y análisis con pandas  
+- Visualización con matplotlib  
+- Interacción con el usuario  
+- Conversión de formatos (JSON → CSV)  
+- Organización profesional de proyectos  
+
+Ideal para roles **junior de análisis de datos**, **Python scripting**, o **automatización básica**.
+
+---
+
+## 📬 Autor
+
+**carret**  
+Python Developer & Data Enthusiast
+
+
+
