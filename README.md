@@ -37,9 +37,9 @@ analizador_interactivo/reporte/
 
 ## 📁 Estructura del proyecto
 
-analizador_csv/
-── data/
-── reporte/
+analizador_csv\
+── data\
+── reporte\
    ── reporte.txt
    ── grafico_histograma.png
    ── grafico_linea.png
@@ -48,7 +48,7 @@ analizador_csv/
    ── manual_barras.png
    ── manual_dispersion.png
    ── datos_convertidos.csv
-── src/
+── src\
    ── analizador_interactivo.py
 ── README.md
 
