@@ -37,20 +37,20 @@ analizador_interactivo/reporte/
 
 ## 📁 Estructura del proyecto
 
-analizador_csv\
-── data\
-── reporte\
-   ── reporte.txt
-   ── grafico_histograma.png
-   ── grafico_linea.png
-   ── manual_histograma.png
-   ── manual_linea.png
-   ── manual_barras.png
-   ── manual_dispersion.png
-   ── datos_convertidos.csv
-── src\
-   ── analizador_interactivo.py
-── README.md
+analizador_csv/
+│── data/
+│── reporte/
+│   ├── reporte.txt
+│   ├── grafico_histograma.png
+│   ├── grafico_linea.png
+│   ├── manual_histograma.png
+│   ├── manual_linea.png
+│   ├── manual_barras.png
+│   ├── manual_dispersion.png
+│   └── datos_convertidos.csv
+│── src/
+│   └── analizador_interactivo.py
+└── README.md
 
 
 ---
